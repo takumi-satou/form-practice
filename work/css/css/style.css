@@ -1,1 +1,17 @@
 @charset "UTF-8";
+
+.wrapper{
+  width: 100%;
+  background: #cff1ff;
+}
+
+.inner{
+  margin: 0 auto;
+  width: 600px;
+}
+
+.main-title{
+  font-size: 28px;
+  text-align: center;
+  padding-top: 60px;
+}
