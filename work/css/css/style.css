@@ -16,7 +16,13 @@
   text-align: center;
 }
 
-.content-title{
+.form-title{
   font-size: 24px;
   text-align: center;
+}
+
+.form-box{
+  padding: 50px;
+  background: #ecfaff;
+  margin-top: 60px;
 }
