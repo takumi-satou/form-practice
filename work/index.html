@@ -23,13 +23,68 @@
             <label for="name">名字
               <span class="required">※</span>
             </label>
-            <input type="name"id="name"name="name">
+            <input class="input__area" id="family__name" type="text" name="name" autocomplete="family-name" required>
           </div>
           <div class="control">
             <label for="name">名前
               <span class="required">※</span>
             </label>
-            <input type="name"id="name"name="name">
+            <input class="input__area" id="first__name" type="text" name="name" autocomplete="family-name" required>
+          </div>
+          <div class="control">
+            <label for="name">生年月日
+              <span class="required">※</span>
+            </label>
+            <div class="select__area is__flex">
+              <div class="select__unit">
+                <select class="input__area" name="year">
+                  <option value="" disabled selected>年</option>
+                  <option value="2000">2000</option>
+                  <option value="2001">2001</option>
+                  <option value="2002">2002</option>
+                  <option value="2003">2003</option>
+                  <option value="2004">2004</option>
+                  <option value="2005">2005</option>
+                  <option value="2006">2006</option>
+                  <option value="2007">2007</option>
+                  <option value="2008">2008</option>
+                  <option value="2009">2009</option>
+                  <option value="2010">2010</option>
+                </select>
+              </div>
+              <div class="select__unit">
+                <select class="input__area" name="month">
+                  <option value="" disabled selected>月</option>
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value="">4</option>
+                  <option value="">5</option>
+                  <option value="">6</option>
+                  <option value="">7</option>
+                  <option value="">8</option>
+                  <option value="">9</option>
+                  <option value="">10</option>
+                  <option value="">11</option>
+                  <option value="">12</option>
+                </select>
+              </div>
+              <div class="select__unit">
+                <select class="input__area" name="day">
+                  <option value="" disabled selected>日</option>
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value="">4</option>
+                  <option value="">5</option>
+                  <option value="">6</option>
+                  <option value="">7</option>
+                  <option value="">8</option>
+                  <option value="">9</option>
+                  <option value="">10</option>
+                </select>
+              </div>
+            </div>
           </div>
         </div>
         </form>
