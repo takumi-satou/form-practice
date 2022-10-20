@@ -20,19 +20,19 @@
         <div class="personal-deta">
           <h3 class="content-title">個人情報</h3>
           <div class="control">
-            <label for="name">名字
+            <label for="name-text">名字
               <span class="required">※</span>
             </label>
             <input class="input__area" id="family__name" type="text" name="name" autocomplete="family-name" required>
           </div>
           <div class="control">
-            <label for="name">名前
+            <label for="name-text">名前
               <span class="required">※</span>
             </label>
             <input class="input__area" id="first__name" type="text" name="name" autocomplete="family-name" required>
           </div>
           <div class="control">
-            <label for="name">生年月日
+            <label for="name-text">生年月日
               <span class="required">※</span>
             </label>
             <div class="select__area is__flex">
@@ -85,24 +85,24 @@
                 </select>
               </div>
             </div>
-            <div class="control">
-              <p class="label__text">性別
-                <span class="required">※</span>
-              </p>
-              <div class="gender-area">
-                <label class="gender-push">
-                  <input class="gender__content" type="radio" name="gender" value="man">
-                  <span>男性</span>
-                </label>
-                <label class="gender-push">
-                  <input class="gender__content" type="radio" name="gender" value="woman">
-                  <span>女性</span>
-                </label>
-                <label class="gender-push">
-                  <input class="gender__content" type="radio" name="gender" value="other">
-                  <span>その他</span>
-                </label>
-              </div>
+          </div>
+          <div class="control">
+            <p class="name-text">性別
+              <span class="required">※</span>
+            </p>
+            <div class="gender-area">
+              <label class="gender-button">
+                <input class="gender-content" type="radio" name="gender" value="man">
+                <span>男性</span>
+              </label>
+              <label class="gender-button">
+                <input class="gender-content" type="radio" name="gender" value="woman">
+                <span>女性</span>
+              </label>
+              <label class="gender-button">
+                <input class="gender-content" type="radio" name="gender" value="other">
+                <span>その他</span>
+              </label>
             </div>
           </div>
         </div>
