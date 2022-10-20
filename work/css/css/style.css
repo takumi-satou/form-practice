@@ -32,7 +32,7 @@
   color: #000000;
 }
 
-.personal-deta{
+.personal-deta, .account-content, .contact-content{
   margin-top: 50px;
 }
 
